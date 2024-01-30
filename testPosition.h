@@ -26,15 +26,15 @@ public:
       // Ticket 3: Without Add
       constructor_default();
       constructor_nonDefault();
-      //constructor_copy();
+      constructor_copy();
       getX();
       getY();
       equals_equals();
-      //equals_xDifferent();
-      //equals_yDifferent();
-      //notEquals_equals();
-      //notEquals_xDifferent();
-      //notEquals_yDifferent();
+      equals_xDifferent();
+      equals_yDifferent();
+      notEquals_equals();
+      notEquals_xDifferent();
+      notEquals_yDifferent();
 
       //// Ticket 4: Add
       addX_zero();
