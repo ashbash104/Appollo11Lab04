@@ -15,7 +15,7 @@
  * POINT : CONSTRUCTOR WITH X,Y
  * Initialize the point to the passed position
  *****************************************/
-Position::Position(double x, double y) : x(99.9), y(88.8)
+Position::Position(double x, double y) : x(x), y(y)
 {
 }
 

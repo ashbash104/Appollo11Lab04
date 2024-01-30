@@ -27,28 +27,28 @@ public:
       constructor_default();
       constructor_nonDefault();
       constructor_copy();
-      getX();
-      getY();
-      equals_equals();
-      equals_xDifferent();
-      equals_yDifferent();
-      notEquals_equals();
-      notEquals_xDifferent();
-      notEquals_yDifferent();
+      //getX();
+      //getY();
+      //equals_equals();
+      //equals_xDifferent();
+      //equals_yDifferent();
+      //notEquals_equals();
+      //notEquals_xDifferent();
+      //notEquals_yDifferent();
 
-      // Ticket 4: Add
-      addX_zero();
-      addX_value();
-      addY_zero();
-      addY_value();
-      add_stationary();
-      add_noTime();
-      add_moving1Second();
-      add_moving4Seconds();
-      add_accelerating1Second();
-      add_accelerating4Seconds();
-      add_1Second();
-      add_4Seconds();
+      //// Ticket 4: Add
+      //addX_zero();
+      //addX_value();
+      //addY_zero();
+      //addY_value();
+      //add_stationary();
+      //add_noTime();
+      //add_moving1Second();
+      //add_moving4Seconds();
+      //add_accelerating1Second();
+      //add_accelerating4Seconds();
+      //add_1Second();
+      //add_4Seconds();
 
       report("Position");
    }

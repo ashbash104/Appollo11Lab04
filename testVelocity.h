@@ -38,8 +38,8 @@ public:
       set_left();
       set_right();
       set_diagonal();
-      
-      // Ticket 2: Add
+      //
+      //// Ticket 2: Add
       addDX_zero();
       addDX_value();
       addDY_zero();
