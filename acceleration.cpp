@@ -31,6 +31,3 @@ void Acceleration::set(const Angle& angle, double magnitude)
    ddx = magnitude * sin(angle.getRadians());
    ddy = magnitude * cos(angle.getRadians());
 }
-
-
-// Test comment to see if this works
