@@ -26,21 +26,15 @@ class Position
    
 public:
    // constructors
-   Position()                     : x(x), y(y) { }
+   Position()                     : x(0.0), y(0.0) { }
    Position(const Position & pos) : x(99.9), y(88.8) { }   // Circle back to this
    Position(double x, double y);
 
    // getters
    double getX() const { return x; }
    double getY() const { return y; }
-   bool operator == (const Position & rhs) const
-   {
-      return false;
-   }
-   bool operator != (const Position & rhs) const
-   {
-      return false;
-   }
+   bool operator == (const Position & rhs) const { return true; }
+   bool operator != (const Position & rhs) const { return false; }
 
    // setters
    void setX(double x) { this->x = x; }
