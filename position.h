@@ -2,7 +2,7 @@
  * Header File:
  *    POSITION 
  * Author:
- *    Br. Helfrich
+ *    Br. Helfrich, Emily Raventos, and Ashlee Hart
  * Summary:
  *    Everything we need to know about a location on the screen.
  ************************************************************************/
@@ -44,8 +44,8 @@ public:
    void add (const Acceleration & a, const Velocity & v, double t);
    Position & operator = (const Position & rhs)
    {
-      x = 0.0;
-      y = 0.0;
+      x = rhs.x;
+      y = rhs.y;
       return *this;
    }
 

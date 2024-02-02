@@ -2,7 +2,7 @@
  * Header File:
  *    VELOCITY
  * Author:
- *    Br. Helfrich
+ *    Br. Helfrich, Emily Raventos, and Ashlee Hart
  * Summary:
  *    Everything we need to know about speed
  ************************************************************************/
